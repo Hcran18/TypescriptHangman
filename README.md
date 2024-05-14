@@ -1,30 +1,23 @@
-# React + TypeScript + Vite
+# Hangman by Hunter Crandall
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tools
+This application was created in React.js using TypeScript.
 
-Currently, two official plugins are available:
+## Deployment
+You can find and use this application at the following URL: [Hangman Game](https://hcrandallhangman.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Play
+Hangman is a classic word-guessing game. To play:
 
-## Expanding the ESLint configuration
+1. Visit the provided URL to access the Hangman game.
+2. Enter a word or phrase for your friend to guess in the provided input field.
+3. Click the "Start Game" button to begin the game.
+4. Once the game starts, your friend can guess letters to uncover the hidden word or phrase.
+5. If your friend guesses a letter correctly, it will be revealed in the word. If they guess incorrectly, they will lose a life.
+6. The game ends when your friend either guesses the word correctly or loses all their lives.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Features
+- Simple and intuitive user interface.
+- Ability to customize the word or phrase for your friend to guess.
+- Real-time feedback on guessed letters and remaining lives.
+- Engaging gameplay experience for players of all ages.
